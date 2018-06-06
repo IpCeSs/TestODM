@@ -8,8 +8,7 @@ $factory= new DocumentManagerFactory();
 //On applique la fonction createDocumentManager à notre nouvelle
 //instance. Ce qui permet de connecter à la db et qui comprends l'instanciation
 //d'un objet de la classe DocumentManager
-$documentManager=$factory->createDocumentManager("mongodb+srv://cess:cess14@minichat-3pwq0.mongodb.net/test?retryWrites=true","minichat");
-
+$documentManager=$factory->createDocumentManager($mongouri, $dbname)
 // instancition d'un nouvel objet de la classe GridFsTest
 //dans lequel on insert des données grâce aux méthodes de la classe Document
 // dont hérite notre classe GridFsTest
