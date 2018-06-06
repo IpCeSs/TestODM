@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridFsTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GridFsTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GridFsTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GRidFsManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GRidFsManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GRidFsManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="468">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
@@ -233,24 +233,23 @@
       <workItem from="1528204576798" duration="477000" />
       <workItem from="1528205529768" duration="3201000" />
       <workItem from="1528209307361" duration="800000" />
-      <workItem from="1528267171720" duration="6431000" />
+      <workItem from="1528267171720" duration="6916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24661000" />
+    <option name="totallyTimeSpent" value="25146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1890" y="47" width="1834" height="991" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.206621" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.206621" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18206821" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -624,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GRidFsManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -645,6 +637,13 @@
           <folding>
             <element signature="e#6#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GRidFsManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
