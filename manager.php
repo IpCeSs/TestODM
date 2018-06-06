@@ -4,8 +4,15 @@ require 'vendor/autoload.php';
 require 'TestODM.php';
 
 use JPC\MongoDB\ODM\Factory\DocumentManagerFactory;
+//On crée une nouvelle instance de DocumentManagerfactory
 $factory= new DocumentManagerFactory();
-$documentManager=$factory->createDocumentManager("mongodb+srv://@minichat.mongodb.net/test?retryWrites=true","minichat");
+
+//On applique la fonction createDocumentManager à notre nouvelle
+//instance. Ce qui permet de connecter à la db et qui comprends l'instanciation
+//d'un objet de la classe DocumentManager
+
+$documentManager=$factory->createDocumentManager($mongouri,$dbname);
+
 
 /**
  * pour récupérer les infos de la bdd
