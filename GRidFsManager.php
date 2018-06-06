@@ -14,7 +14,9 @@ $documentManager=$factory->createDocumentManager($mongouri, $dbname)
 // dont hérite notre classe GridFsTest
 $doc= new GridFsTest();
 $doc->setId("id");
+//nom du fichier à enregistrer
 $doc->setFilename("hello.txt");
+//tye de fichier
 $doc->setContentType("text/plain");
 //setMeta est une fonction de la classe que nous avons créee
 $doc->setMeta1("valeur_de_meta1");
@@ -23,7 +25,7 @@ $doc->setStream(fopen("hello.txt",'r'));
 //on persit et sauve
 $documentManager->persist($doc);
 $documentManager->flush();
-var_dump($doc);
+
 
 
 
