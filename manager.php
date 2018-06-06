@@ -5,7 +5,7 @@ require 'TestODM.php';
 
 use JPC\MongoDB\ODM\Factory\DocumentManagerFactory;
 $factory= new DocumentManagerFactory();
-$documentManager=$factory->createDocumentManager("mongodb+srv://cess:cess14@minichat-3pwq0.mongodb.net/test?retryWrites=true","minichat");
+$documentManager=$factory->createDocumentManager("mongodb+srv://@minichat.mongodb.net/test?retryWrites=true","minichat");
 
 /**
  * pour récupérer les infos de la bdd
